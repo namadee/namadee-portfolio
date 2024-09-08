@@ -39,14 +39,20 @@ const theme = createTheme({
       color: '#FFF'
     },
     h2:{
-      fontSize:'1.75rem'
+      fontSize:'1rem',
+      color:'#FFF'
     },
     h3:{
       fontSize: '0.8rem',
       color: '#FFF'
     },
-    body1:{
+     body2:{
       fontSize: '0.8rem',
+      fontWeight: '500',
+      color:'#FFF'
+    },
+    body1:{
+      fontSize: '0.7rem',
       color:'#FFF'
     }
   }
