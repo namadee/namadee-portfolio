@@ -1,10 +1,10 @@
-import {Box, Container, Paper, Typography } from "@mui/material";
+import {Box, Paper, Typography } from "@mui/material";
 import photo from '../images/photo.png';
 
 const Home =() => {
 
     return(
-        <Container sx={{width:'100%', height:'100vh', display:{md:'flex', xs:'none'},justifyContent:'center', alignItems:'center',}}>
+        <Box sx={{width:'100%', height:'100vh', display:{md:'flex', xs:'none'},justifyContent:'center', alignItems:'center',m:0,p:0}}>
         <Paper
       sx={{
         display:'flex',justifyContent:'center', alignItems:'center', flexDirection:'column', gap:'1rem',
@@ -47,7 +47,7 @@ const Home =() => {
         Let’s build, solve, and create the future together! ✨
       </Typography>
     </Paper>
-        </Container>
+        </Box>
     )
 
 }
